@@ -2,7 +2,7 @@
   "name": "jandan-spider",
   "version": "1.0.0",
   "description": "> 前天刚考完编译，今天考完网络，就开始捣鼓代码了，花了一天时间摸索了一下`nodejs`的爬虫，也就是`tcp`，`http`连接。",
-  "main": "download.js",
+  "main": "store.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
