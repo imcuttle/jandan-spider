@@ -10,11 +10,12 @@ function run(i,low) {
     if(i<low) return;
     spider('/ooxx/page-'+i,function (html) {
         var images = [];
-        html.replace(/<img.+?src="(http.+?sina.+?)"/g,function (m,c) {
+        html.replace(/<a.+?href="(http[^<>]+?sina.+?)".*?class="view_img_link".*?>[^<]+?<\/a>/g,function (m,c) {
             images.unshift(c);
         });
         var page = i;
         var proms = images.map((x,i,a)=>{
+            // console.log(x);
             return new Promise((resolve,reject)=>{
                 var req = http.get(x,function (res) {
                     res.on('error',function (err) {
@@ -36,8 +37,8 @@ function run(i,low) {
 }
 
 
-//2302
-run(1801,1800);
+//2302 - 1780
+run(2034,2034);
 
 
 process.on('uncaughtException', function (err) {

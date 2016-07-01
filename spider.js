@@ -17,7 +17,7 @@ var gn = function (path,callback) {
                 "User-Agent": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36",
                 Referer: "http://jandan.net/v",
                 "Accept-Language": "zh-CN,zh;q=0.8",
-                "Cookie": "gif-click-load=on; bad-click-load=on; PHPSESSID=u1gnmqnpb75injakbgvkb6r413; 4036050675=c119Yp%2BLrMWuv%2BWMyYtq3x6vTdbFzaTbUyoiLt%2Fv; jdna=596e6fb28c1bb47f949e65e1ae03f7f5#1467288596467; Hm_lvt_fd93b7fb546adcfbcf80c4fc2b54da2c=1467287791; Hm_lpvt_fd93b7fb546adcfbcf80c4fc2b54da2c=1467288598; _ga=GA1.2.330681373.1467287790"
+                "Cookie": "4036050675=a212EaZdVTtGmJU%2FQ44CpU9i5IZP2Ljr0I0Eg%2B3iGMA; PHPSESSID=i0kp1fea7ri18thb82r66fmig1; _ga=GA1.2.330681373.1467287790; gif-click-load=off; nsfw-click-load=off; 4036050675=4fbeVaLEoaUa6qhYEnwK6xvWxtZfUjFfUFD31YbeyQ; jdna=596e6fb28c1bb47f949e65e1ae03f7f5#1467383943629; Hm_lvt_fd93b7fb546adcfbcf80c4fc2b54da2c=1467287791,1467300607,1467374084,1467377139; Hm_lpvt_fd93b7fb546adcfbcf80c4fc2b54da2c=1467383944; bad-click-load=off"
             },
             hostname: "jandan.net",
             path: path
@@ -56,4 +56,3 @@ var fn = function (path,callback) {
 
 module.exports = gn;
 
-// gn('/ooxx',console.log)
