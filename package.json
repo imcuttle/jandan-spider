@@ -1,0 +1,21 @@
+{
+  "name": "jandan-spider",
+  "version": "1.0.0",
+  "description": "> 前天刚考完编译，今天考完网络，就开始捣鼓代码了，花了一天时间摸索了一下`nodejs`的爬虫，也就是`tcp`，`http`连接。",
+  "main": "download.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moyuyc/jandan-spider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moyuyc/jandan-spider/issues"
+  },
+  "homepage": "https://github.com/moyuyc/jandan-spider#readme"
+}
